@@ -1,0 +1,128 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-image: url("./img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+
+  }
+
+.login-box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10%;
+    text-align: center; 
+  
+  
+}
+
+.login-box h1
+{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+   
+}
+
+.login-box .user-box
+{
+    position: relative;
+
+}
+
+.login-box .user-box input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    
+    
+}
+
+.login-box .user-box label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: painted;
+    transition: .5s;
+
+}
+
+button {
+   
+    background-color: black;
+    top: -20px;
+    left: 0;
+    color: #48C9B0;
+    font-size: 12px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px; 
+    line-height: 40px;
+    margin: 0 auto;
+    border: 2px solid #48C9B0;
+
+}
+
+
+.rounded-button {
+    border-radius: 10px; 
+    margin: 10px;
+}
+
+.icon-whatsapp {
+    position: absolute;
+    font-size: 60px; 
+    color: #77bb41;
+    top: 90%;
+    left: 40%;
+    cursor: pointer;
+    
+}
+.icon-facebook {
+    position: absolute;
+    font-size: 60px; 
+    color: #77bb41;
+    top: 90%;
+    left: 47%;
+    cursor: pointer;
+    
+}
+.icon-tiktok {
+    position: absolute;
+    font-size: 60px; 
+    color: #77bb41;
+    top: 90%;
+    left: 55%;
+    cursor: pointer;
+    
+}
+
+
+
+
+
