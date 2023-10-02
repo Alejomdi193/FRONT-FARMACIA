@@ -12,7 +12,7 @@ async function Validar() {
     };
 
     try {
-        const response = await fetch("http://localhost:5115/api/farmacia/User/validate-credentials", {
+        const response = await fetch("http://localhost:5284/apiFarmacia/User/validate-credentials", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
